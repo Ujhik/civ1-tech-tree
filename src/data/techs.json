@@ -1,0 +1,45 @@
+[
+  {
+    "id": "horseback_riding",
+    "name": "Horseback Riding",
+    "units": ["cavalry"]
+  },
+  {
+    "id": "ceremonial_burial",
+    "name": "Ceremonial Burial",
+    "buildings": ["temple"]
+  },
+  {
+    "id": "pottery",
+    "name": "Pottery",
+    "buildings": ["granary"],
+    "wonders": ["hanging_gardens"]
+  },
+  {
+    "id": "alphabet",
+    "name": "Alphabet"
+  },
+  {
+    "id": "the_wheel",
+    "name": "The Wheel",
+    "units": ["chariot"]
+  },
+  {
+    "id": "masonry",
+    "name": "Masonry",
+    "buildings": ["palace", "city_walls"],
+    "wonders": ["pyramids", "great_wall"]
+  },
+  {
+    "id": "bronze_working",
+    "name": "Bronze Working",
+    "units": ["Phalanx"],
+    "wonders": ["colossus"]
+  },
+  {
+    "id": "chivalry",
+    "name": "Chivalry",
+    "prerequisites": ["horseback_riding", "feudalism"],
+    "units": ["Knight"]
+  }
+]
