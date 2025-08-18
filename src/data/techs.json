@@ -129,6 +129,268 @@
     "name": "Trade",
     "prerequisites": ["currency", "code_of_laws"],
     "units": ["caravan"]
+  },
+  {
+    "id": "navigation",
+    "name": "Navigation",
+    "prerequisites": ["astronomy", "map_making"],
+    "units": ["sail"],
+    "wonders": ["magellan_expedition"]
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "prerequisites": ["navigation", "mathematics"]
+  },
+  {
+    "id": "feudalism",
+    "name": "Feudalism",
+    "prerequisites": ["monarchy", "masonry"]
+  },
+  {
+    "id": "banking",
+    "name": "Banking",
+    "prerequisites": ["the_republic", "trade"],
+    "buildings": ["bank"]
+  },
+  {
+    "id": "phylosophy",
+    "name": "Phylosophy",
+    "prerequisites": ["literacy", "mysticism"]
+  },
+  {
+    "id": "university",
+    "name": "University",
+    "prerequisites": ["mathematics", "philosophy"],
+    "buildings": ["university"]
+  },
+  {
+    "id": "railroad",
+    "name": "Railroad",
+    "prerequisites": ["bridge_building", "steam_engine"],
+    "wonders": ["darwin_voyage"],
+    "terrain": ["railroad"]
+  },
+  {
+    "id": "invention",
+    "name": "Invention",
+    "prerequisites": ["engineering", "literacy"]
+  },
+  {
+    "id": "medicine",
+    "name": "Medicine",
+    "prerequisites": ["trade", "phylosophy"],
+    "wonders": ["shakespeare_theatre"]
+  },
+  {
+    "id": "magnetism",
+    "name": "Magnetism",
+    "prerequisites": ["physics", "navigation"],
+    "units": ["frigate"]
+  },
+  {
+    "id": "steam_engine",
+    "name": "Steam engine",
+    "prerequisites": ["physics", "invention"]
+  },
+  {
+    "id": "religion",
+    "name": "Religion",
+    "prerequisites": ["phylosophy", "writing"],
+    "buildings": ["cathedral"],
+    "wonders": ["j_s_bach_cathedral", "michelangelo_chapel"]
+  },
+  {
+    "id": "democracy",
+    "name": "Democracy",
+    "prerequisites": ["phylosophy", "literacy"]
+  },
+  {
+    "id": "theory_of_gravity",
+    "name": "Theory of gravity",
+    "prerequisites": ["university", "astronomy"],
+    "wonders": ["isaac_newton_college"]
+  },
+  {
+    "id": "gunpowder",
+    "name": "Gunpowder",
+    "prerequisites": ["invention", "iron_working"],
+    "units": ["musketeer"]
+  },
+  {
+    "id": "chemistry",
+    "name": "Chemistry",
+    "prerequisites": ["medicine", "university"]
+  },
+  {
+    "id": "electricity",
+    "name": "Electricity",
+    "prerequisites": ["magnetism", "metallurgy"]
+  },
+  {
+    "id": "flight",
+    "name": "Flight",
+    "prerequisites": ["physics", "combustion"],
+    "units": ["fighter"]
+  },
+  {
+    "id": "atomic_theory",
+    "name": "Atomic theory",
+    "prerequisites": ["theory_of_gravity", "physics"]
+  },
+  {
+    "id": "industrialization",
+    "name": "Industrialization",
+    "prerequisites": ["railroad", "banking"],
+    "units": ["transport"],
+    "buildings": ["factory"],
+    "wonders": ["women_suffrage"]
+  },
+  {
+    "id": "metallurgy",
+    "name": "Metallurgy",
+    "prerequisites": ["gunpowder", "university"],
+    "units": ["cannon"]
+  },
+  {
+    "id": "explosives",
+    "name": "Explosives",
+    "prerequisites": ["chemistry", "gun_powder"]
+  },
+  {
+    "id": "electronics",
+    "name": "Electronics",
+    "prerequisites": ["electricity", "engineering"],
+    "buildings": ["hydro_plant"],
+    "wonders": ["hoover_dam"]
+  },
+  {
+    "id": "advanced_flight",
+    "name": "Advanced Flight",
+    "prerequisites": ["flight", "electricity"],
+    "units": ["bomber", "carrier"]
+  },
+  {
+    "id": "communism",
+    "name": "Communism",
+    "prerequisites": ["industrialization", "philosophy"],
+    "wonders": ["united_nations"]
+  },
+  {
+    "id": "the_corporation",
+    "name": "The corporation",
+    "prerequisites": ["industrialization", "banking"]
+  },
+  {
+    "id": "steel",
+    "name": "Steel",
+    "prerequisites": ["metallurgy", "industrialization"],
+    "units": ["battleship"]
+  },
+  {
+    "id": "conscription",
+    "name": "Conscription",
+    "prerequisites": ["explosives", "the_republic"],
+    "units": ["riflemen"]
+  },
+  {
+    "id": "computers",
+    "name": "Computers",
+    "prerequisites": ["electronics", "mathematics"],
+    "wonders": ["seti_program"]
+  },
+  {
+    "id": "rocketry",
+    "name": "Rocketry",
+    "prerequisites": ["advanced_flight", "electronics"],
+    "units": ["nuclear"]
+  },
+  {
+    "id": "labor_union",
+    "name": "Labor union",
+    "prerequisites": ["communism", "mass_production"],
+    "units": ["mech_inf"]
+  },
+  {
+    "id": "genetic_engineering",
+    "name": "Genetic engineering",
+    "prerequisites": ["the_corporation", "medicine"],
+    "wonders": ["cure_for_cancer"]
+  },
+  {
+    "id": "refining",
+    "name": "Refining",
+    "prerequisites": ["the_corporation", "chemistry"],
+    "buildings": ["power_plant"]
+  },
+  {
+    "id": "automobile",
+    "name": "Automobile",
+    "prerequisites": ["steel", "combustion"],
+    "units": ["armor"]
+  },
+  {
+    "id": "space_flight",
+    "name": "Space flight",
+    "prerequisites": ["rocketry", "nuclear_fission"],
+    "spaceship_parts": ["ss_structure"],
+    "wonders": ["apollo_program"]
+  },
+  {
+    "id": "plastics",
+    "name": "Plastics",
+    "prerequisites": ["space_flight", "refining"],
+    "spaceship_parts": ["ss_component"]
+  },
+  {
+    "id": "combustion",
+    "name": "Combustion",
+    "prerequisites": ["refining", "explosives"],
+    "units": ["cruiser"]
+  },
+  {
+    "id": "mass_production",
+    "name": "Mass production",
+    "prerequisites": ["automobile", "the_corporation"],
+    "units": ["submarine"],
+    "buildings": ["mass_transit"]
+  },
+  {
+    "id": "robotics",
+    "name": "Robotics",
+    "prerequisites": ["plastics", "computers"],
+    "units": ["artillery"],
+    "buildings": ["mfg_plant"],
+    "spaceship_parts": ["ss_module"]
+  },
+  {
+    "id": "superconductor",
+    "name": "Superconductor",
+    "prerequisites": ["plastics", "mass_production"],
+    "buildings": ["sdi_defense"]
+  },
+  {
+    "id": "nuclear_fission",
+    "name": "Nuclear fission",
+    "prerequisites": ["mass_production", "atomic_theory"],
+    "wonders": ["manhattan_project"]
+  },
+  {
+    "id": "recicling",
+    "name": "Recicling",
+    "prerequisites": ["mass_production", "democracy"],
+    "buildings": ["recycling_center"]
+  },
+  {
+    "id": "nuclear_power",
+    "name": "Nuclear power",
+    "prerequisites": ["nuclear_fission", "electronics"],
+    "buildings": ["nuclear_plant"]
+  },
+  {
+    "id": "fussion_power",
+    "name": "Fussion power",
+    "prerequisites": ["nuclear_power", "superconductor"]
   }
   
 ]
