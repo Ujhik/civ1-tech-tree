@@ -40,6 +40,95 @@
     "id": "chivalry",
     "name": "Chivalry",
     "prerequisites": ["horseback_riding", "feudalism"],
-    "units": ["Knight"]
+    "units": ["knight"]
+  },
+  {
+    "id": "mysticism",
+    "name": "Mysticism",
+    "prerequisites": ["ceremonial_burial"],
+    "wonders": ["oracle"]
+  },
+  {
+    "id": "code_of_laws",
+    "name": "Code Of Laws",
+    "prerequisites": ["alphabet"],
+    "buildings": ["courthouse"]
+  },
+  {
+    "id": "map_making",
+    "name": "Map Making",
+    "prerequisites": ["alphabet"],
+    "units": ["trireme"],
+    "buildings": ["lighthouse"]
+  },
+  {
+    "id": "writing",
+    "name": "Writing",
+    "prerequisites": ["alphabet"],
+    "units": ["diplomat"],
+    "buildings": ["library"]
+  },
+  {
+    "id": "construction",
+    "name": "Construction",
+    "prerequisites": ["masonry", "currency"],
+    "buildings": ["aqueduct", "colosseum"],
+    "terrain": ["fortress"]
+  },
+  {
+    "id": "iron_working",
+    "name": "Iron working",
+    "prerequisites": ["bronze_working"]
+  },
+  {
+    "id": "currency",
+    "name": "Currency",
+    "prerequisites": ["bronze_working"],
+    "buildings": ["marketplace"]
+  },
+  {
+    "id": "astronomy",
+    "name": "Astronomy",
+    "prerequisites": ["mysticism", "mathematics"],
+    "wonders": ["copernicus_observatory"]
+  },
+  {
+    "id": "monarchy",
+    "name": "Monarchy",
+    "prerequisites": ["code_of_laws","ceremonial_burial"]
+  },
+  {
+    "id": "the_republic",
+    "name": "The republic",
+    "prerequisites": ["code_of_laws", "Literacy"]
+  },
+  {
+    "id": "literacy",
+    "name": "Literacy",
+    "prerequisites": ["writing", "code_of_laws"],
+    "wonders": ["great_library"]
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "prerequisites": ["masonry", "alphabet"],
+    "units": ["catapult"]
+  },
+  {
+    "id": "bridge_building",
+    "name": "Bridge building",
+    "prerequisites": ["construction", "iron_working"]
+  },
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "prerequisites": ["construction", "the_wheel"]
+  },
+  {
+    "id": "trade",
+    "name": "Trade",
+    "prerequisites": ["currency", "code_of_laws"],
+    "units": ["caravan"]
   }
+  
 ]

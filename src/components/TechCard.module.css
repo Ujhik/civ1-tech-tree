@@ -1,4 +1,4 @@
-.techCard {
+/* .techCard {
     border: 2px solid #333;
     border-radius: 8px;
     padding: 16px;
@@ -22,4 +22,28 @@
     font-size: 14px;
     font-weight: bold;
     color: #333;
+} */
+
+.techCard {
+    /* background-color: #f0f0f0; */
+    text-align: center;
+}
+
+:global(.react-flow__handle) {
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+:global(.react-flow .react-flow__handle-left) {
+    left: 2%;
+    transform: translate(-50%, -50%);
+}
+
+:global(.react-flow .react-flow__handle-right) {
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.techCard h3 {
+    margin: 0px;
 }

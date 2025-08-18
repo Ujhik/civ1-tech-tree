@@ -1,0 +1,226 @@
+[
+  {
+    "id": "horseback_riding",
+    "position": {
+      "x": -90,
+      "y": -40
+    }
+  },
+  {
+    "id": "chivalry",
+    "position": {
+      "x": 120,
+      "y": -30
+    }
+  },
+  {
+    "id": "ceremonial_burial",
+    "position": {
+      "x": -90,
+      "y": 50
+    }
+  },
+  {
+    "id": "mysticism",
+    "position": {
+      "x": 120,
+      "y": 60
+    }
+  },
+  {
+    "id": "astronomy",
+    "position": {
+      "x": 520,
+      "y": 60
+    }
+  },
+  {
+    "id": "monarchy",
+    "position": {
+      "x": 330,
+      "y": 10
+    }
+  },
+  {
+    "id": "pottery",
+    "position": {
+      "x": -90,
+      "y": 190
+    }
+  },
+  {
+    "id": "alphabet",
+    "position": {
+      "x": -90,
+      "y": 260
+    }
+  },
+  {
+    "id": "code_of_laws",
+    "position": {
+      "x": 120,
+      "y": 340
+    }
+  },
+  {
+    "id": "monarchy",
+    "position": {
+      "x": 330,
+      "y": 10
+    }
+  },
+  {
+    "id": "the_republic",
+    "position": {
+      "x": 330,
+      "y": 310
+    }
+  },
+  {
+    "id": "literacy",
+    "position": {
+      "x": 330,
+      "y": 260
+    }
+  },
+  {
+    "id": "trade",
+    "position": {
+      "x": 330,
+      "y": 470
+    }
+  },
+  {
+    "id": "map_making",
+    "position": {
+      "x": 120,
+      "y": 180
+    }
+  },
+  {
+    "id": "writing",
+    "position": {
+      "x": 120,
+      "y": 260
+    }
+  },
+  {
+    "id": "mathematics",
+    "position": {
+      "x": 330,
+      "y": 120
+    }
+  },
+  {
+    "id": "astronomy",
+    "position": {
+      "x": 520,
+      "y": 60
+    }
+  },
+  {
+    "id": "the_wheel",
+    "position": {
+      "x": -90,
+      "y": 120
+    }
+  },
+  {
+    "id": "engineering",
+    "position": {
+      "x": 520,
+      "y": 190
+    }
+  },
+  {
+    "id": "masonry",
+    "position": {
+      "x": -90,
+      "y": 390
+    }
+  },
+  {
+    "id": "construction",
+    "position": {
+      "x": 330,
+      "y": 390
+    }
+  },
+  {
+    "id": "bridge_building",
+    "position": {
+      "x": 520,
+      "y": 540
+    }
+  },
+  {
+    "id": "engineering",
+    "position": {
+      "x": 520,
+      "y": 190
+    }
+  },
+  {
+    "id": "mathematics",
+    "position": {
+      "x": 330,
+      "y": 120
+    }
+  },
+  {
+    "id": "astronomy",
+    "position": {
+      "x": 520,
+      "y": 60
+    }
+  },
+  {
+    "id": "bronze_working",
+    "position": {
+      "x": -90,
+      "y": 470
+    }
+  },
+  {
+    "id": "iron_working",
+    "position": {
+      "x": 120,
+      "y": 550
+    }
+  },
+  {
+    "id": "bridge_building",
+    "position": {
+      "x": 520,
+      "y": 540
+    }
+  },
+  {
+    "id": "currency",
+    "position": {
+      "x": 120,
+      "y": 470
+    }
+  },
+  {
+    "id": "construction",
+    "position": {
+      "x": 330,
+      "y": 390
+    }
+  },
+  {
+    "id": "engineering",
+    "position": {
+      "x": 520,
+      "y": 190
+    }
+  },
+  {
+    "id": "trade",
+    "position": {
+      "x": 330,
+      "y": 470
+    }
+  }
+]

@@ -1,17 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Handle } from '@xyflow/react';
 import styles from './TechCard.module.css';
 
-const TechCard = ({ name }) => {
+const TechCard = (props) => {
+
   return (
     <div className={styles.techCard}>
-      <h3>{name}</h3>
+      <h3>{props.data.name}</h3>
+      <Handle type="source" position="right" />
+      <Handle type="target" position="left" />
     </div>
   );
 };
 
 TechCard.propTypes = {
-  name: PropTypes.string.isRequired,
+  data: PropTypes.object.isRequired,
 };
 
 export default TechCard;
