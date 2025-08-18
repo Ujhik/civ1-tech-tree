@@ -1,0 +1,22 @@
+[
+  { "id": "hanging_gardens", "name": "Hanging Gardens" },
+  { "id": "pyramids", "name": "Pyramids" },
+  { "id": "great_wall", "name": "Great Wall" },
+  { "id": "colossus", "name": "Colossus" },
+  { "id": "oracle", "name": "Oracle" },
+  { "id": "copernicus_observatory", "name": "Copernicus Observatory" },
+  { "id": "great_library", "name": "Great Library" },
+  { "id": "magellan_expedition", "name": "Magellan Expedition" },
+  { "id": "darwin_voyage", "name": "Darwin Voyage" },
+  { "id": "shakespeare_theatre", "name": "Shakespeare Theatre" },
+  { "id": "j_s_bach_cathedral", "name": "J. S. Bach Cathedral" },
+  { "id": "michelangelo_chapel", "name": "Michelangelo Chapel" },
+  { "id": "isaac_newton_college", "name": "Isaac Newton College" },
+  { "id": "women_suffrage", "name": "Women’s Suffrage" },
+  { "id": "hoover_dam", "name": "Hoover Dam" },
+  { "id": "united_nations", "name": "United Nations" },
+  { "id": "seti_program", "name": "SETI Program" },
+  { "id": "cure_for_cancer", "name": "Cure for Cancer" },
+  { "id": "apollo_program", "name": "Apollo Program" },
+  { "id": "manhattan_project", "name": "Manhattan Project" }
+]

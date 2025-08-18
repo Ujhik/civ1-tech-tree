@@ -3,6 +3,11 @@ import './TechTree.module.css';
 import TechCard from './TechCard';
 import techsJson from '../data/techs.json';
 import techsVisuals from '../data/techs_visuals.json';
+import units from '../data/units.json';
+import buildings from '../data/buildings.json';
+import wonders from '../data/wonders.json';
+import terrains from '../data/terrains.json';
+import spaceship_parts from '../data/spaceship_parts.json';
 
 import { 
         ReactFlow, 
@@ -15,6 +20,8 @@ import {
         MarkerType,  } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
 
+import PositionableEdge from "./PositionableEdge";
+
 const TechTree = () => {
   
   const nodeDefaults = {
@@ -25,6 +32,10 @@ const TechTree = () => {
   // we define the nodeTypes outside of the component to prevent re-renderings
   // you could also use useMemo inside the component
   const nodeTypes = { techCard: TechCard };
+  
+  const edgeTypes = {
+    positionableedge: PositionableEdge,
+  };
   
   // const initialNodes = [
   //   { id: 'n1', position: { x: 0, y: 0 }, data: { label: 'Node 1', name:'test' }, ...nodeDefaults, type: 'techCard', },
@@ -50,6 +61,7 @@ const TechTree = () => {
     return dict;
   }, {});
 
+  // Populate the unlocks for each tech based on prerequisites
   Object.values(techsDict).map(tech => {
     if (tech.prerequisites) {
       tech.prerequisites.forEach(prereqId => {
@@ -59,6 +71,20 @@ const TechTree = () => {
       });
     }
   });
+  
+  // Create json arrays
+  const unitsDict = arrayToDict(units);
+  const buildingsDict = arrayToDict(buildings);
+  const wondersDict = arrayToDict(wonders);
+  const terrainsDict = arrayToDict(terrains);
+  const spaceshipPartsDict = arrayToDict(spaceship_parts);
+  
+  function arrayToDict(array) {
+    return array.reduce((dict, item) => {
+      dict[item.id] = item;
+      return dict;
+    }, {});
+  }
   
   // Recursive function to render tech and its unlocks
   // const renderTechTree = techId => (
@@ -71,7 +97,8 @@ const TechTree = () => {
   //     )}
   //   </div>
   // );
-  function generateNodesAndEdges(techId, nodes = [], edges = [], visited = new Set()) {
+  const visited = new Set()
+  function generateNodesAndEdges(techId, nodes = [], edges = []) {
     if (visited.has(techId)) return { nodes, edges }; // Prevent infinite loops
     visited.add(techId);
 
@@ -79,18 +106,34 @@ const TechTree = () => {
     nodes.push({
       id: techId,
       position: tech.position,
-      data: { name: tech.name },
+      data: { ...tech, unitsDict, buildingsDict, wondersDict, terrainsDict, spaceshipPartsDict },
       type: 'techCard',
       ...nodeDefaults,
     });
 
     tech.unlocks.forEach(childId => {
-      edges.push({
-        id: `${techId}-${childId}`,
-        source: techId,
-        target: childId,
-        type: 'smoothstep',
-      });
+      if (techsDict[childId].prerequisites[0] === techId) {
+        edges.push({
+          id: `${techId}-${childId}`,
+          source: techId,
+          target: childId,
+          type: 'smoothstep',
+          // type: "positionableedge",
+          data: {
+            type: "smoothstep",
+            positionHandlers: [
+              {
+                x: 350.0,
+                y: 100.0,
+              },
+              {
+                x: 450.0,
+                y: 150.0,
+              },
+            ],
+          },
+        });
+      }
       generateNodesAndEdges(childId, nodes, edges, visited);
     });
 
@@ -148,7 +191,7 @@ const TechTree = () => {
     }));
     const json = JSON.stringify(positions, null, 2);
     navigator.clipboard.writeText(json)
-      .then(() => alert('Node positions copied to clipboard!'))
+      // .then(() => alert('Node positions copied to clipboard!'))
       .catch(() => alert('Failed to copy to clipboard.'));
   };
  
@@ -161,6 +204,7 @@ const TechTree = () => {
         nodes={nodes}
         edges={edges}
         nodeTypes={nodeTypes}
+        edgeTypes={edgeTypes}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onConnect={onConnect}
@@ -186,12 +230,6 @@ const TechTree = () => {
       </ReactFlow>
     </div>
   );
-  
-  // return (
-  //   <div >
-  //     {rootTechs.map(rootId => renderTechTree(rootId))}
-  //   </div>
-  // );
 };
 
 export default TechTree;

@@ -1,0 +1,23 @@
+[
+  { "id": "temple", "name": "Temple" },
+  { "id": "granary", "name": "Granary" },
+  { "id": "palace", "name": "Palace" },
+  { "id": "city_walls", "name": "City Walls" },
+  { "id": "courthouse", "name": "Courthouse" },
+  { "id": "lighthouse", "name": "Lighthouse" },
+  { "id": "library", "name": "Library" },
+  { "id": "aqueduct", "name": "Aqueduct" },
+  { "id": "colosseum", "name": "Colosseum" },
+  { "id": "marketplace", "name": "Marketplace" },
+  { "id": "bank", "name": "Bank" },
+  { "id": "university", "name": "University" },
+  { "id": "cathedral", "name": "Cathedral" },
+  { "id": "factory", "name": "Factory" },
+  { "id": "hydro_plant", "name": "Hydro Plant" },
+  { "id": "power_plant", "name": "Power Plant" },
+  { "id": "mass_transit", "name": "Mass Transit" },
+  { "id": "mfg_plant", "name": "Manufacturing Plant" },
+  { "id": "sdi_defense", "name": "SDI Defense" },
+  { "id": "recycling_center", "name": "Recycling Center" },
+  { "id": "nuclear_plant", "name": "Nuclear Plant" }
+]

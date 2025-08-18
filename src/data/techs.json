@@ -73,7 +73,7 @@
     "name": "Construction",
     "prerequisites": ["masonry", "currency"],
     "buildings": ["aqueduct", "colosseum"],
-    "terrain": ["fortress"]
+    "terrains": ["fortress"]
   },
   {
     "id": "iron_working",
@@ -169,7 +169,7 @@
     "name": "Railroad",
     "prerequisites": ["bridge_building", "steam_engine"],
     "wonders": ["darwin_voyage"],
-    "terrain": ["railroad"]
+    "terrains": ["railroad"]
   },
   {
     "id": "invention",

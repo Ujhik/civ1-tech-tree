@@ -1,0 +1,5 @@
+[
+  { "id": "ss_structure", "name": "SS Structure" },
+  { "id": "ss_component", "name": "SS Component" },
+  { "id": "ss_module", "name": "SS Module" }
+]

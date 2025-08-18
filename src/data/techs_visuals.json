@@ -35,45 +35,318 @@
     }
   },
   {
+    "id": "navigation",
+    "position": {
+      "x": 710,
+      "y": 150
+    }
+  },
+  {
+    "id": "physics",
+    "position": {
+      "x": 890,
+      "y": -390
+    }
+  },
+  {
+    "id": "magnetism",
+    "position": {
+      "x": 1090,
+      "y": -390
+    }
+  },
+  {
+    "id": "electricity",
+    "position": {
+      "x": 1250,
+      "y": -380
+    }
+  },
+  {
+    "id": "electronics",
+    "position": {
+      "x": 1430,
+      "y": -380
+    }
+  },
+  {
+    "id": "computers",
+    "position": {
+      "x": 1670,
+      "y": -240
+    }
+  },
+  {
+    "id": "robotics",
+    "position": {
+      "x": 2540,
+      "y": -30
+    }
+  },
+  {
+    "id": "rocketry",
+    "position": {
+      "x": 2060,
+      "y": 310
+    }
+  },
+  {
+    "id": "space_flight",
+    "position": {
+      "x": 2220,
+      "y": 220
+    }
+  },
+  {
+    "id": "plastics",
+    "position": {
+      "x": 2380,
+      "y": 160
+    }
+  },
+  {
+    "id": "superconductor",
+    "position": {
+      "x": 2560,
+      "y": 160
+    }
+  },
+  {
+    "id": "fussion_power",
+    "position": {
+      "x": 2150,
+      "y": -50
+    }
+  },
+  {
+    "id": "nuclear_power",
+    "position": {
+      "x": 1930,
+      "y": -40
+    }
+  },
+  {
+    "id": "advanced_flight",
+    "position": {
+      "x": 1910,
+      "y": 410
+    }
+  },
+  {
+    "id": "steam_engine",
+    "position": {
+      "x": 1090,
+      "y": -270
+    }
+  },
+  {
+    "id": "railroad",
+    "position": {
+      "x": 890,
+      "y": -230
+    }
+  },
+  {
+    "id": "industrialization",
+    "position": {
+      "x": 1020,
+      "y": -70
+    }
+  },
+  {
+    "id": "communism",
+    "position": {
+      "x": 1450,
+      "y": -80
+    }
+  },
+  {
+    "id": "labor_union",
+    "position": {
+      "x": 1740,
+      "y": -140
+    }
+  },
+  {
+    "id": "the_corporation",
+    "position": {
+      "x": 1170,
+      "y": -140
+    }
+  },
+  {
+    "id": "genetic_engineering",
+    "position": {
+      "x": 1530,
+      "y": 60
+    }
+  },
+  {
+    "id": "refining",
+    "position": {
+      "x": 1410,
+      "y": 170
+    }
+  },
+  {
+    "id": "combustion",
+    "position": {
+      "x": 1570,
+      "y": 310
+    }
+  },
+  {
+    "id": "flight",
+    "position": {
+      "x": 1740,
+      "y": 420
+    }
+  },
+  {
+    "id": "automobile",
+    "position": {
+      "x": 1390,
+      "y": 320
+    }
+  },
+  {
+    "id": "mass_production",
+    "position": {
+      "x": 1580,
+      "y": 230
+    }
+  },
+  {
+    "id": "nuclear_fission",
+    "position": {
+      "x": 1760,
+      "y": 50
+    }
+  },
+  {
+    "id": "recicling",
+    "position": {
+      "x": 1430,
+      "y": 460
+    }
+  },
+  {
+    "id": "steel",
+    "position": {
+      "x": 1220,
+      "y": 380
+    }
+  },
+  {
+    "id": "atomic_theory",
+    "position": {
+      "x": 1450,
+      "y": -10
+    }
+  },
+  {
+    "id": "theory_of_gravity",
+    "position": {
+      "x": 1200,
+      "y": -20
+    }
+  },
+  {
+    "id": "phylosophy",
+    "position": {
+      "x": 1000,
+      "y": 90
+    }
+  },
+  {
+    "id": "medicine",
+    "position": {
+      "x": 960,
+      "y": 450
+    }
+  },
+  {
+    "id": "chemistry",
+    "position": {
+      "x": 1230,
+      "y": 270
+    }
+  },
+  {
+    "id": "explosives",
+    "position": {
+      "x": 1240,
+      "y": 100
+    }
+  },
+  {
+    "id": "conscription",
+    "position": {
+      "x": 930,
+      "y": 540
+    }
+  },
+  {
+    "id": "religion",
+    "position": {
+      "x": 840,
+      "y": 0
+    }
+  },
+  {
+    "id": "democracy",
+    "position": {
+      "x": 720,
+      "y": 280
+    }
+  },
+  {
     "id": "monarchy",
     "position": {
       "x": 330,
-      "y": 10
+      "y": 110
+    }
+  },
+  {
+    "id": "feudalism",
+    "position": {
+      "x": 750,
+      "y": -140
     }
   },
   {
     "id": "pottery",
     "position": {
       "x": -90,
-      "y": 190
+      "y": 130
     }
   },
   {
     "id": "alphabet",
     "position": {
       "x": -90,
-      "y": 260
+      "y": 200
     }
   },
   {
     "id": "code_of_laws",
     "position": {
       "x": 120,
-      "y": 340
-    }
-  },
-  {
-    "id": "monarchy",
-    "position": {
-      "x": 330,
-      "y": 10
+      "y": 200
     }
   },
   {
     "id": "the_republic",
     "position": {
       "x": 330,
-      "y": 310
+      "y": 170
+    }
+  },
+  {
+    "id": "banking",
+    "position": {
+      "x": 730,
+      "y": 470
     }
   },
   {
@@ -81,6 +354,27 @@
     "position": {
       "x": 330,
       "y": 260
+    }
+  },
+  {
+    "id": "invention",
+    "position": {
+      "x": 520,
+      "y": 380
+    }
+  },
+  {
+    "id": "gunpowder",
+    "position": {
+      "x": 720,
+      "y": 380
+    }
+  },
+  {
+    "id": "metallurgy",
+    "position": {
+      "x": 1040,
+      "y": 200
     }
   },
   {
@@ -94,56 +388,56 @@
     "id": "map_making",
     "position": {
       "x": 120,
-      "y": 180
+      "y": 130
     }
   },
   {
     "id": "writing",
     "position": {
       "x": 120,
-      "y": 260
+      "y": 280
     }
   },
   {
     "id": "mathematics",
     "position": {
       "x": 330,
-      "y": 120
+      "y": 380
     }
   },
   {
-    "id": "astronomy",
+    "id": "university",
     "position": {
-      "x": 520,
-      "y": 60
+      "x": 860,
+      "y": 200
     }
   },
   {
     "id": "the_wheel",
     "position": {
       "x": -90,
-      "y": 120
+      "y": 280
     }
   },
   {
     "id": "engineering",
     "position": {
       "x": 520,
-      "y": 190
+      "y": 210
     }
   },
   {
     "id": "masonry",
     "position": {
       "x": -90,
-      "y": 390
+      "y": 380
     }
   },
   {
     "id": "construction",
     "position": {
-      "x": 330,
-      "y": 390
+      "x": 120,
+      "y": 420
     }
   },
   {
@@ -151,27 +445,6 @@
     "position": {
       "x": 520,
       "y": 540
-    }
-  },
-  {
-    "id": "engineering",
-    "position": {
-      "x": 520,
-      "y": 190
-    }
-  },
-  {
-    "id": "mathematics",
-    "position": {
-      "x": 330,
-      "y": 120
-    }
-  },
-  {
-    "id": "astronomy",
-    "position": {
-      "x": 520,
-      "y": 60
     }
   },
   {
@@ -189,37 +462,9 @@
     }
   },
   {
-    "id": "bridge_building",
-    "position": {
-      "x": 520,
-      "y": 540
-    }
-  },
-  {
     "id": "currency",
     "position": {
       "x": 120,
-      "y": 470
-    }
-  },
-  {
-    "id": "construction",
-    "position": {
-      "x": 330,
-      "y": 390
-    }
-  },
-  {
-    "id": "engineering",
-    "position": {
-      "x": 520,
-      "y": 190
-    }
-  },
-  {
-    "id": "trade",
-    "position": {
-      "x": 330,
       "y": 470
     }
   }
