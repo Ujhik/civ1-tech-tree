@@ -106,7 +106,7 @@ const TechTree = () => {
     nodes.push({
       id: techId,
       position: tech.position,
-      data: { ...tech, unitsDict, buildingsDict, wondersDict, terrainsDict, spaceshipPartsDict },
+      data: { ...tech, techsDict, unitsDict, buildingsDict, wondersDict, terrainsDict, spaceshipPartsDict },
       type: 'techCard',
       ...nodeDefaults,
     });

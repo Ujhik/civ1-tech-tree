@@ -22,12 +22,13 @@ const TechCard = (props) => {
   );
 
   return (
+    <>
     <div className={styles.techCard}>
       <h3>{props.data.name}</h3>
-      <div className={styles.content}>
-        {props.data.prerequisites?.[1] && (
-          <>({props.data.prerequisites[1]})</>
+      {props.data.prerequisites?.[1] && (
+          <><div className={styles.prequisiteText}>({props.data.techsDict[props.data.prerequisites[1]]?.name})</div></>
         )}
+      <div className={styles.content}>
         {renderList(props.data.units, props.data.unitsDict, styles.units, styles.unit, "units")}
         {renderList(props.data.buildings, props.data.buildingsDict, styles.buildings, styles.building, "buildings")}
         {renderList(props.data.wonders, props.data.wondersDict, styles.wonders, styles.wonder, "wonders")}
@@ -37,6 +38,7 @@ const TechCard = (props) => {
         <Handle type="target" position="left" />
       </div>
     </div>
+    </>
   );
 };
 

@@ -101,7 +101,7 @@
   {
     "id": "the_republic",
     "name": "The republic",
-    "prerequisites": ["code_of_laws", "Literacy"]
+    "prerequisites": ["code_of_laws", "literacy"]
   },
   {
     "id": "literacy",
@@ -156,8 +156,8 @@
     "buildings": ["bank"]
   },
   {
-    "id": "phylosophy",
-    "name": "Phylosophy",
+    "id": "philosophy",
+    "name": "Philosophy",
     "prerequisites": ["literacy", "mysticism"]
   },
   {
@@ -181,7 +181,7 @@
   {
     "id": "medicine",
     "name": "Medicine",
-    "prerequisites": ["trade", "phylosophy"],
+    "prerequisites": ["trade", "philosophy"],
     "wonders": ["shakespeare_theatre"]
   },
   {
@@ -199,14 +199,14 @@
   {
     "id": "religion",
     "name": "Religion",
-    "prerequisites": ["phylosophy", "writing"],
+    "prerequisites": ["philosophy", "writing"],
     "buildings": ["cathedral"],
     "wonders": ["j_s_bach_cathedral", "michelangelo_chapel"]
   },
   {
     "id": "democracy",
     "name": "Democracy",
-    "prerequisites": ["phylosophy", "literacy"]
+    "prerequisites": ["philosophy", "literacy"]
   },
   {
     "id": "theory_of_gravity",

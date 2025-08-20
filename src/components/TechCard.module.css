@@ -72,3 +72,9 @@
 .unlockedBlock > div > div {
     margin-left: 10px;
 }
+
+.prequisiteText{
+    font-style: italic;
+}
+
+/* Lab colores */
