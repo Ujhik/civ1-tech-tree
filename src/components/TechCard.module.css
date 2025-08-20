@@ -30,13 +30,17 @@
 }
 
 :global(.react-flow .react-flow__handle-left) {
-    left: 2%;
+    left: 1%;
     transform: translate(-50%, -50%);
 }
 
 :global(.react-flow .react-flow__handle-right) {
     left: 95%;
     transform: translate(-50%, -50%);
+}
+
+:global(.react-flow__node-techCard){
+    border: 1.5px solid rgb(26, 26, 26);
 }
 
 .techCard {

@@ -119,6 +119,16 @@ const TechTree = () => {
           target: childId,
           type: 'smoothstep',
           // type: "positionableedge",
+           markerEnd: {
+            type: MarkerType.ArrowClosed,
+            width: 20,
+            height: 20,
+            color: '#2b2b2bff',
+          },
+          style: {
+            strokeWidth: 2,
+            stroke: '#2b2b2bff',
+          },
           data: {
             type: "smoothstep",
             positionHandlers: [
@@ -224,7 +234,7 @@ const TechTree = () => {
           }
         }
         >
-        <Background bgColor="#d3d3d3ff" color='#d3d3d3ff'/>
+        <Background bgColor="#b2b2b2ff" color='#b2b2b2ff'/>
         <Controls />
         
       </ReactFlow>
