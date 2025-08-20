@@ -2,470 +2,470 @@
   {
     "id": "horseback_riding",
     "position": {
-      "x": -90,
-      "y": -40
+      "x": -120,
+      "y": -100
     }
   },
   {
     "id": "chivalry",
     "position": {
       "x": 120,
-      "y": -30
+      "y": -110
     }
   },
   {
     "id": "ceremonial_burial",
     "position": {
-      "x": -90,
-      "y": 50
+      "x": -120,
+      "y": 0
     }
   },
   {
     "id": "mysticism",
     "position": {
       "x": 120,
-      "y": 60
+      "y": 0
     }
   },
   {
     "id": "astronomy",
     "position": {
-      "x": 520,
-      "y": 60
+      "x": 360,
+      "y": -20
     }
   },
   {
     "id": "navigation",
     "position": {
-      "x": 710,
-      "y": 150
+      "x": 610,
+      "y": -30
     }
   },
   {
     "id": "physics",
     "position": {
-      "x": 890,
-      "y": -390
+      "x": 850,
+      "y": 0
     }
   },
   {
     "id": "magnetism",
     "position": {
       "x": 1090,
-      "y": -390
+      "y": -60
     }
   },
   {
     "id": "electricity",
     "position": {
-      "x": 1250,
-      "y": -380
+      "x": 1330,
+      "y": -40
     }
   },
   {
     "id": "electronics",
     "position": {
-      "x": 1430,
-      "y": -380
+      "x": 1570,
+      "y": -60
     }
   },
   {
     "id": "computers",
     "position": {
-      "x": 1670,
-      "y": -240
+      "x": 1810,
+      "y": -50
     }
   },
   {
     "id": "robotics",
     "position": {
-      "x": 2540,
-      "y": -30
+      "x": 2290,
+      "y": 20
     }
   },
   {
     "id": "rocketry",
     "position": {
-      "x": 2060,
-      "y": 310
+      "x": 1570,
+      "y": 130
     }
   },
   {
     "id": "space_flight",
     "position": {
-      "x": 2220,
-      "y": 220
+      "x": 1810,
+      "y": 130
     }
   },
   {
     "id": "plastics",
     "position": {
-      "x": 2380,
-      "y": 160
+      "x": 2050,
+      "y": 140
     }
   },
   {
     "id": "superconductor",
     "position": {
-      "x": 2560,
-      "y": 160
+      "x": 2290,
+      "y": 180
     }
   },
   {
     "id": "fussion_power",
     "position": {
-      "x": 2150,
-      "y": -50
+      "x": 2530,
+      "y": 490
     }
   },
   {
     "id": "nuclear_power",
     "position": {
-      "x": 1930,
-      "y": -40
+      "x": 2290,
+      "y": 480
     }
   },
   {
     "id": "advanced_flight",
     "position": {
-      "x": 1910,
-      "y": 410
+      "x": 1330,
+      "y": 120
     }
   },
   {
     "id": "steam_engine",
     "position": {
       "x": 1090,
-      "y": -270
+      "y": 40
     }
   },
   {
     "id": "railroad",
     "position": {
-      "x": 890,
-      "y": -230
+      "x": 610,
+      "y": 450
     }
   },
   {
     "id": "industrialization",
     "position": {
-      "x": 1020,
-      "y": -70
+      "x": 850,
+      "y": 430
     }
   },
   {
     "id": "communism",
     "position": {
-      "x": 1450,
-      "y": -80
+      "x": 1090,
+      "y": 290
     }
   },
   {
     "id": "labor_union",
     "position": {
-      "x": 1740,
-      "y": -140
+      "x": 1330,
+      "y": 280
     }
   },
   {
     "id": "the_corporation",
     "position": {
-      "x": 1170,
-      "y": -140
+      "x": 1090,
+      "y": 440
     }
   },
   {
     "id": "genetic_engineering",
     "position": {
-      "x": 1530,
-      "y": 60
+      "x": 1330,
+      "y": 380
     }
   },
   {
     "id": "refining",
     "position": {
-      "x": 1410,
-      "y": 170
+      "x": 1330,
+      "y": 480
     }
   },
   {
     "id": "combustion",
     "position": {
       "x": 1570,
-      "y": 310
+      "y": 480
     }
   },
   {
     "id": "flight",
     "position": {
-      "x": 1740,
-      "y": 420
+      "x": 1090,
+      "y": 130
     }
   },
   {
     "id": "automobile",
     "position": {
-      "x": 1390,
-      "y": 320
+      "x": 1570,
+      "y": 570
     }
   },
   {
     "id": "mass_production",
     "position": {
-      "x": 1580,
-      "y": 230
+      "x": 1810,
+      "y": 570
     }
   },
   {
     "id": "nuclear_fission",
     "position": {
-      "x": 1760,
-      "y": 50
+      "x": 2050,
+      "y": 480
     }
   },
   {
     "id": "recicling",
     "position": {
-      "x": 1430,
-      "y": 460
+      "x": 2050,
+      "y": 580
     }
   },
   {
     "id": "steel",
     "position": {
-      "x": 1220,
-      "y": 380
+      "x": 1330,
+      "y": 570
     }
   },
   {
     "id": "atomic_theory",
     "position": {
-      "x": 1450,
-      "y": -10
+      "x": 850,
+      "y": 350
     }
   },
   {
     "id": "theory_of_gravity",
     "position": {
-      "x": 1200,
-      "y": -20
+      "x": 610,
+      "y": 360
     }
   },
   {
     "id": "phylosophy",
     "position": {
-      "x": 1000,
-      "y": 90
+      "x": 610,
+      "y": 280
     }
   },
   {
     "id": "medicine",
     "position": {
-      "x": 960,
-      "y": 450
+      "x": 610,
+      "y": 670
     }
   },
   {
     "id": "chemistry",
     "position": {
-      "x": 1230,
-      "y": 270
+      "x": 850,
+      "y": 680
     }
   },
   {
     "id": "explosives",
     "position": {
-      "x": 1240,
-      "y": 100
+      "x": 1090,
+      "y": 680
     }
   },
   {
     "id": "conscription",
     "position": {
-      "x": 930,
-      "y": 540
+      "x": 1330,
+      "y": 670
     }
   },
   {
     "id": "religion",
     "position": {
-      "x": 840,
-      "y": 0
+      "x": 850,
+      "y": 100
     }
   },
   {
     "id": "democracy",
     "position": {
-      "x": 720,
-      "y": 280
+      "x": 850,
+      "y": 270
     }
   },
   {
     "id": "monarchy",
     "position": {
-      "x": 330,
+      "x": 360,
       "y": 110
     }
   },
   {
     "id": "feudalism",
     "position": {
-      "x": 750,
-      "y": -140
+      "x": 610,
+      "y": 110
     }
   },
   {
     "id": "pottery",
     "position": {
-      "x": -90,
-      "y": 130
+      "x": -120,
+      "y": 90
     }
   },
   {
     "id": "alphabet",
     "position": {
-      "x": -90,
-      "y": 200
+      "x": -120,
+      "y": 240
     }
   },
   {
     "id": "code_of_laws",
     "position": {
       "x": 120,
-      "y": 200
+      "y": 170
     }
   },
   {
     "id": "the_republic",
     "position": {
-      "x": 330,
-      "y": 170
+      "x": 360,
+      "y": 180
     }
   },
   {
     "id": "banking",
     "position": {
-      "x": 730,
-      "y": 470
+      "x": 610,
+      "y": 180
     }
   },
   {
     "id": "literacy",
     "position": {
-      "x": 330,
-      "y": 260
+      "x": 360,
+      "y": 250
     }
   },
   {
     "id": "invention",
     "position": {
-      "x": 520,
-      "y": 380
+      "x": 610,
+      "y": 580
     }
   },
   {
     "id": "gunpowder",
     "position": {
-      "x": 720,
-      "y": 380
+      "x": 850,
+      "y": 570
     }
   },
   {
     "id": "metallurgy",
     "position": {
-      "x": 1040,
-      "y": 200
+      "x": 1090,
+      "y": 570
     }
   },
   {
     "id": "trade",
     "position": {
-      "x": 330,
-      "y": 470
+      "x": 360,
+      "y": 670
     }
   },
   {
     "id": "map_making",
     "position": {
       "x": 120,
-      "y": 130
+      "y": 70
     }
   },
   {
     "id": "writing",
     "position": {
       "x": 120,
-      "y": 280
+      "y": 240
     }
   },
   {
     "id": "mathematics",
     "position": {
-      "x": 330,
-      "y": 380
+      "x": 120,
+      "y": 350
     }
   },
   {
     "id": "university",
     "position": {
-      "x": 860,
-      "y": 200
+      "x": 360,
+      "y": 360
     }
   },
   {
     "id": "the_wheel",
     "position": {
-      "x": -90,
-      "y": 280
+      "x": -120,
+      "y": 340
     }
   },
   {
     "id": "engineering",
     "position": {
-      "x": 520,
-      "y": 210
+      "x": 360,
+      "y": 580
     }
   },
   {
     "id": "masonry",
     "position": {
-      "x": -90,
-      "y": 380
+      "x": -120,
+      "y": 450
     }
   },
   {
     "id": "construction",
     "position": {
       "x": 120,
-      "y": 420
+      "y": 450
     }
   },
   {
     "id": "bridge_building",
     "position": {
-      "x": 520,
-      "y": 540
+      "x": 360,
+      "y": 460
     }
   },
   {
     "id": "bronze_working",
     "position": {
-      "x": -90,
-      "y": 470
+      "x": -120,
+      "y": 610
     }
   },
   {
     "id": "iron_working",
     "position": {
       "x": 120,
-      "y": 550
+      "y": 600
     }
   },
   {
     "id": "currency",
     "position": {
       "x": 120,
-      "y": 470
+      "y": 680
     }
   }
 ]

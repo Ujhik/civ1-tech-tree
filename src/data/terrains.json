@@ -1,4 +1,5 @@
 [
   { "id": "fortress", "name": "Fortress" },
-  { "id": "railroad", "name": "Railroad" }
+  { "id": "railroad", "name": "Railroad" },
+  { "id": "bridge", "name": "Bridge" }
 ]

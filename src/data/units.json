@@ -21,5 +21,7 @@
   { "id": "armor", "name": "Armor" },
   { "id": "submarine", "name": "Submarine" },
   { "id": "artillery", "name": "Artillery" },
-  { "id": "cruiser", "name": "Cruiser" }
+  { "id": "cruiser", "name": "Cruiser" },
+  { "id": "legion", "name": "Legion" },
+  { "id": "ironclad", "name": "Ironclad" }
 ]

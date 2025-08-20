@@ -33,7 +33,7 @@
   {
     "id": "bronze_working",
     "name": "Bronze Working",
-    "units": ["Phalanx"],
+    "units": ["phalanx"],
     "wonders": ["colossus"]
   },
   {
@@ -78,7 +78,8 @@
   {
     "id": "iron_working",
     "name": "Iron working",
-    "prerequisites": ["bronze_working"]
+    "prerequisites": ["bronze_working"],
+    "units": ["legion"]
   },
   {
     "id": "currency",
@@ -117,7 +118,8 @@
   {
     "id": "bridge_building",
     "name": "Bridge building",
-    "prerequisites": ["construction", "iron_working"]
+    "prerequisites": ["construction", "iron_working"],
+    "terrains": ["bridge"]
   },
   {
     "id": "engineering",
@@ -191,7 +193,8 @@
   {
     "id": "steam_engine",
     "name": "Steam engine",
-    "prerequisites": ["physics", "invention"]
+    "prerequisites": ["physics", "invention"],
+    "units": ["ironclad"]
   },
   {
     "id": "religion",
@@ -255,7 +258,7 @@
   {
     "id": "explosives",
     "name": "Explosives",
-    "prerequisites": ["chemistry", "gun_powder"]
+    "prerequisites": ["chemistry", "gunpowder"]
   },
   {
     "id": "electronics",
@@ -333,7 +336,7 @@
     "id": "space_flight",
     "name": "Space flight",
     "prerequisites": ["rocketry", "nuclear_fission"],
-    "spaceship_parts": ["ss_structure"],
+    "spaceship_parts": ["ss_structural"],
     "wonders": ["apollo_program"]
   },
   {
