@@ -23,7 +23,9 @@ const TechCard = (props) => {
 
   return (
     <div className={styles.techCard}>
-      <h3>{props.data.name}</h3>
+      <div className={styles.title}>
+        <h3>{props.data.name}</h3>
+      </div>
       <div className={styles.content}>
         {props.data.prerequisites?.[1] && (
           <>({props.data.prerequisites[1]})</>

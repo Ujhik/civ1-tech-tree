@@ -60,10 +60,10 @@
     box-shadow: var(--xy-node-boxshadow-default);
 }
 
-.react-flow__node.selectable:hover,
+/* .react-flow__node.selectable:hover,
 .react-flow__node.draggable:hover {
     border-color: var(--xy-theme-hover);
-}
+} */
 
 .react-flow__node.selectable.selected {
     border-color: var(--xy-theme-selected);
