@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import './TechTree.module.css';
 import TechCard from './TechCard';
+import styles from './TechTree.module.css';
 import techsJson from '../data/techs.json';
 import techsVisuals from '../data/techs_visuals.json';
 import units from '../data/units.json';
@@ -14,7 +15,7 @@ import {
         applyNodeChanges, 
         applyEdgeChanges, 
         addEdge, 
-        Background, 
+        // Background, 
         Controls,
         Position,
         MarkerType,  } from '@xyflow/react';
@@ -206,7 +207,7 @@ const TechTree = () => {
   };
  
   return (
-    <div style={{ width: '100%', height: '100%' }} className="tech-tree">
+    <div style={{ width: '100%', height: '100%' }} className={styles.techTree}>
       <button onClick={handleCopyPositions} style={{ position: 'absolute', zIndex: 10 }}>
         Copy Positions to Clipboard
       </button>
@@ -234,7 +235,7 @@ const TechTree = () => {
           }
         }
         >
-        <Background bgColor="#b2b2b2ff" color='#b2b2b2ff'/>
+        {/* <Background bgColor="#b2b2b2ff" color='#b2b2b2ff'/> */}
         <Controls />
         
       </ReactFlow>

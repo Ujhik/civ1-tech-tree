@@ -1,3 +1,10 @@
 :global(.react-flow__node-techCard) {
     width: 200px;
 }
+
+
+
+.techTree > div {
+    background-color: #D6CCC2;
+
+}
